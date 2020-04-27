@@ -78,6 +78,7 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  width: 10vw;
 }
 
 .saveBtn i:hover {
@@ -87,4 +88,21 @@ textarea{
 
 .container {
   float: center;
+}
+
+.clearBtn {
+  float: center;
+  border: none;
+  background-color: #06AED5;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
+  0px;
+  color: white;
+  display: flex;
+  font-size: 22px;
+  line-height: 22px;
+  margin: auto;
+  padding: 14px 34px;
+  text-align: center;
+  cursor: pointer;
 }
