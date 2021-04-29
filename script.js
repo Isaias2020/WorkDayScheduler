@@ -35,7 +35,7 @@ for (var i = 1; i < timesOfDay.length + 1; i++) {
     myButton.attr("id", "saveNote" + i);
     myButton.attr("class", "saveBtn");
     myButton.attr("data-id", i);
-    myButton.text("Save");
+    myButton.append('<i class="fas fa-save"></i>');
 
     row.append(timeBlock, textArea, myButton);
     container.append(row);
