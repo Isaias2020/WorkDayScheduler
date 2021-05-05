@@ -10,3 +10,5 @@ Third-Party API used to display current date and time in the header: [Moment.js]
 
 
 Here is a link to the working [application](https://isaias2020.github.io/WorkDayScheduler/).  
+
+![Screenshot of working application](Schedulerfiles/SchedulerScreenShot.png)
